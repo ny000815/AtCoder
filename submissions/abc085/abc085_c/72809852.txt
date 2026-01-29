@@ -1,4 +1,0 @@
-Submission ID: 72809852
-Contest: abc085
-Problem: abc085_c
-Point: 300.0
