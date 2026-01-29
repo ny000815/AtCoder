@@ -1,0 +1,19 @@
+name: AtCoder Submissions Scraper
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: AtCoder Submissions Scraper
+        uses: m-76/atcoder-problems-submission-scraper@v0.2.1
+        with:
+          user_id: "zaki_8" 
+          from_second: 0
