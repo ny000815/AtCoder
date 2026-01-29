@@ -1,0 +1,4 @@
+Submission ID: 72790291
+Contest: abc095
+Problem: abc095_b
+Point: 200.0

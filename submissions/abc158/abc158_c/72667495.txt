@@ -1,0 +1,4 @@
+Submission ID: 72667495
+Contest: abc158
+Problem: abc158_c
+Point: 300.0
