@@ -1,0 +1,4 @@
+Submission ID: 72790315
+Contest: abc130
+Problem: abc130_b
+Point: 200.0

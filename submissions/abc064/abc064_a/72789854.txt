@@ -1,0 +1,4 @@
+Submission ID: 72789854
+Contest: abc064
+Problem: abc064_a
+Point: 100.0

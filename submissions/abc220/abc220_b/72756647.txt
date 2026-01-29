@@ -1,0 +1,4 @@
+Submission ID: 72756647
+Contest: abc220
+Problem: abc220_b
+Point: 200.0

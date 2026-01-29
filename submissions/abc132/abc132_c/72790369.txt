@@ -1,0 +1,4 @@
+Submission ID: 72790369
+Contest: abc132
+Problem: abc132_c
+Point: 300.0
