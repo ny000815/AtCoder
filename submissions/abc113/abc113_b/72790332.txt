@@ -1,4 +1,0 @@
-Submission ID: 72790332
-Contest: abc113
-Problem: abc113_b
-Point: 200.0
