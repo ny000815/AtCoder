@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 USER_ID = "zaki_8"
 SUBMISSIONS_DIR = "submissions"
 
-# 言語名に含まれる文字列から拡張子を判定する辞書
 EXTENSION_MAP = {
     "C++": "cpp",
     "Python": "py",
@@ -25,7 +24,6 @@ EXTENSION_MAP = {
 }
 
 def get_extension(language_name):
-    """言語名から拡張子を返す。見つからない場合は txt"""
     for key, ext in EXTENSION_MAP.items():
         if key in language_name:
             return ext
@@ -62,14 +60,12 @@ def main():
         problem_id = sub["problem_id"]
         sub_id = sub["id"]
         
-        # 拡張子を決定
         ext = get_extension(sub["language"])
         
         path = os.path.join(SUBMISSIONS_DIR, contest_id, problem_id)
         if not os.path.exists(path):
             os.makedirs(path)
 
-        # ファイル名を ID + 拡張子 に変更
         file_path = os.path.join(path, f"{sub_id}.{ext}")
 
         if os.path.exists(file_path):
