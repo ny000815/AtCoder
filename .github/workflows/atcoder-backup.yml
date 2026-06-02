@@ -1,9 +1,9 @@
 name: AtCoder Backup
 
 on:
-  workflow_dispatch: # 手動実行
+  workflow_dispatch: # Manual run
   schedule:
-    # NY時間 00:00（冬時間・EST, UTC-5）
+    # NY時間 00:00（WinterTime・EST, UTC-5）
     - cron: '0 5 * * *'
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: pip install cloudscraper beautifulsoup4
 
       - name: Run scraper
         run: python fetch_submissions.py
