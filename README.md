@@ -1,6 +1,6 @@
 # AtCoder Submission Backup 
 
-*(日本語版は[こちら](#日本語版) / Japanese version below)*
+*([日本語版](#日本語版) / Japanese version below)*
 
 A GitHub Actions workflow that automatically backs up your **accepted (AC)** AtCoder submissions to a Git repository on a daily schedule.
 
